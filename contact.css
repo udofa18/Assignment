@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+body{
+    font-family:monospace;
+    background-color:#E9E9E9 ;
+}  
+.header{
+    background-color: rgb(13, 12, 10);
+    width:100%;
+    font-family:monospace;
+    position: fixed;
+    
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+   position: relative;
+   
+}
+
+nav .logo{
+    padding-left: 3rem;
+    font-family: Impact;
+    color: whitesmoke;
+}
+
+.nav-links{
+    padding-left: 50%;
+    position: relative;
+}
+.nav-links .list{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.nav-links ul li{
+    list-style: none;
+    padding: 20px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:monospace;
+    font-weight:700;
+    font-size: 1rem;
+}
+.nav-links :hover{
+    border-bottom:  3px solid red; 
+    transition: 0.5s;
+
+}
+.list .active{
+    background-color: rgb(214, 7, 7);
+    border: 2px solid white;
+}
